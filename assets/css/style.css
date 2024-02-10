@@ -10,7 +10,8 @@
 
 *{
     margin: 0px;
-    padding: 0px
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .grid{
@@ -18,8 +19,18 @@
     grid-template-rows: 9vh 11vh 70vh 10vh;
 }
 
+i{
+    color:var(--blanco)
+}
+
 .navbar{
     background-color: var(--primary);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
 }
 
 .filtro{
