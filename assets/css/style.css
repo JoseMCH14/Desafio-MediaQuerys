@@ -73,6 +73,8 @@ main{
     background-color: var(--blanco);
 }
 
+
+
 footer{
     background-color: var(--secundary);
     display: flex;
