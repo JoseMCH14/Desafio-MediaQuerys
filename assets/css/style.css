@@ -71,8 +71,36 @@ i{
 
 main{
     background-color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.paginado{
+    display: flex;
+    margin-top: 20px;
+}
+
+.paginado p{
+    font-size: small;
+    color: var(--primary);
+    border-top: 1px solid var(--tertiary);
+    border-bottom: 1px solid var(--tertiary);
+    border-left: 0.2px solid var(--tertiary);
+    border-right: 0.2px solid var(--tertiary);
+    padding: 6px 10px 6px 10px;
+}
+
+.paginado p:first-child{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.paginado p:last-child{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
 
 
 footer{
