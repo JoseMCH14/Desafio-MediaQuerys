@@ -49,6 +49,24 @@ i{
 
 .filtro{
     background-color: var(--tertiary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: small;
+    padding-top: 10px;
+}
+
+.filtro select{
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: white;
+    height: 30px;
+    margin-top: 3px;
+    margin-bottom: 8px;
+    
 }
 
 main{
