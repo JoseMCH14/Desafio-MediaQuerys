@@ -7,3 +7,29 @@
     /*Medidas*/
     --mobile:576px;
 }
+
+*{
+    margin: 0px;
+    padding: 0px
+}
+
+.grid{
+    display: grid;
+    grid-template-rows: 9vh 11vh 70vh 10vh;
+}
+
+.navbar{
+    background-color: var(--primary);
+}
+
+.filtro{
+    background-color: var(--tertiary);
+}
+
+main{
+    background-color: var(--blanco);
+}
+
+footer{
+    background-color: var(--secundary);
+}
