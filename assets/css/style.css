@@ -182,7 +182,7 @@ footer{
         "nav main"
         "footer main"
         ;
-        grid-template-columns: 1fr 5fr;
+        grid-template-columns: 170px 5fr;
         grid-template-rows: 50px 4fr 71px;
     }
 }
