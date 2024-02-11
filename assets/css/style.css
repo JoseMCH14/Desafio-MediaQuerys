@@ -109,6 +109,7 @@ button{
     border-radius: 3px;
     display: flex;
     flex-direction: column;
+    box-shadow: 0 1px var(--tertiary);
 }
 
 .card figure{
