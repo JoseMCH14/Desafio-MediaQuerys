@@ -192,6 +192,7 @@ footer{
 
     .filtro{
         grid-area: filtro;
+        padding-bottom: 5px;
     }
 
     .main{
