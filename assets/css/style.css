@@ -20,7 +20,8 @@
 }
 
 i{
-    color:var(--blanco)
+    color:var(--blanco);
+    padding: 0 2px;
 }
 
 .navbar{
@@ -75,6 +76,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .contenido{
@@ -113,8 +115,8 @@ button{
 }
 
 figure img{
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 50vh;
+    max-height: 50vh;
 }
 
 .paginado{
