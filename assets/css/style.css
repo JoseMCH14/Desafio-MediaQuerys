@@ -31,6 +31,10 @@ i{
     align-items: center;
 }
 
+.navbar ul {
+    display: none;
+}
+
 .logo{
     display: flex;
     color:var(--blanco);
