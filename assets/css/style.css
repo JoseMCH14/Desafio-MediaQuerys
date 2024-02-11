@@ -115,8 +115,9 @@ button{
 }
 
 figure img{
-    max-width: 50vh;
-    max-height: 50vh;
+    width: 42vh;
+    height: 50vh;
+    
 }
 
 .paginado{
