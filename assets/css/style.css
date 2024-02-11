@@ -4,8 +4,6 @@
     --tertiary:#E5E7E9;
     --blanco:#FFFFFF;
     --Negro: #000000;
-    /*Medidas*/
-    --mobile:576px;
 }
 
 *{
@@ -159,4 +157,32 @@ footer{
     align-items: center;
     justify-content: center;
     color: var(--blanco);
+}
+
+@media screen and (min-width: 576px){
+    .navbar{
+        grid-area: nav;
+    }
+
+    .filtro{
+        grid-area: filtro;
+    }
+
+    .main{
+        grid-area: main;
+    }
+
+    footer{
+        grid-area: footer;
+    }
+
+    .grid{
+        grid-template-areas: 
+        "nav filtro"
+        "nav main"
+        "footer main"
+        ;
+        grid-template-columns: 1fr 5fr;
+        grid-template-rows: 50px 4fr 71px;
+    }
 }
