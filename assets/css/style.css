@@ -197,6 +197,27 @@ footer{
 
     .main{
         grid-area: main;
+        margin:0;
+        padding: 0;
+        justify-content: space-between;
+    }
+
+    .productos{
+        height: 63.2vh; /* Altura máxima de la sección */
+        overflow-y: auto; /* Agregar scroll vertical cuando sea necesario */
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap:15px
+    }
+
+
+    .card{
+        border: 0.5px solid var(--tertiary);
+        border-radius: 3px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 1px var(--tertiary);
     }
 
     footer{
@@ -215,6 +236,6 @@ footer{
         "footer main"
         ;
         grid-template-columns: 170px 5fr;
-        grid-template-rows: 50px 4fr 71px;
+        grid-template-rows: 50px 1fr 71px;
     }
 }
