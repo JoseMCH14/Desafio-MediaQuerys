@@ -162,6 +162,32 @@ footer{
 @media screen and (min-width: 576px){
     .navbar{
         grid-area: nav;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .logo{
+        margin: 15px 0;
+    }
+
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        font-family: 'Open Sans', sans-serif;
+        color:var(--blanco);
+        font-size:small;
+    }
+
+    .navbar ul li{
+        padding: 5px;
     }
 
     .filtro{
