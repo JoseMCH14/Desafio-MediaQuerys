@@ -203,8 +203,8 @@ footer{
     }
 
     .productos{
-        height: 63.2vh; /* Altura máxima de la sección */
-        overflow-y: auto; /* Agregar scroll vertical cuando sea necesario */
+        height: 63.2vh;
+        overflow-y: auto; 
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
